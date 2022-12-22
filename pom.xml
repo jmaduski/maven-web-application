@@ -5,25 +5,24 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	
-	<version>0.0.2</version> 
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
-
 	<organization>
 		<name>Landmark Technologies</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
-        	
+
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.200.29.103:9000/projects/</sonar.host.url>
-	        <sonar.login>48bd330774460dcf63b83be1447fa909d4cb7f7b</sonar.login>
+		<sonar.host.url>http://44.200.29.103:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -58,7 +57,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- compile dependencies -->
+		<!-- compile dependencies nnn-->
 
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -88,25 +87,27 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>	
+		</dependency>
+		
 	</dependencies>
+	
 	<distributionManagement>
+		
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://35.175.187.75:8081/repository/ebayweb-release/</url>
+	      <name>Georgeebeh Releases Nexus Repository</name>
+	      <url>http://172.31.75.140:8081/repository/georgeebeh/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://35.175.187.75:8081/repository/ebayfe-snapshots/</url>
+	      <name>Georgeebeh Snapshot Nexus Repository </name>
+	      <url>http://172.31.75.140:8081/repository/georgeebeh-snapshot/</url>
 	    </snapshotRepository>
-	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>ebay</finalName>
+		<finalName>tesla</finalName>
 		
 		<plugins>
 			<plugin>
