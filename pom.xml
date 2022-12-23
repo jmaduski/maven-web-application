@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>jmaduski Releases Nexus Repository</name>
-	      <url>http://172.31.69.69:8081/repository/ebay-release/</url> 
+	      <url>http://3.234.221.187:8081/repository/Tesla-Release/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>jmaduski Snapshot Nexus Repository </name>
-	      <url>http://172.31.69.69:8081/repository/ebay2-snapshot/</url>
+	      <url>http://3.234.221.187:8081/repository/tesla-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
