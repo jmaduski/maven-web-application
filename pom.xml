@@ -95,19 +95,19 @@
 		
 	    <repository>
 	      <id>nexus</id>
-	      <name>Georgeebeh Releases Nexus Repository</name>
-	      <url>http://172.31.75.140:8081/repository/georgeebeh/</url> 
+	      <name>jmaduski Releases Nexus Repository</name>
+	      <url>http://172.31.69.69:8081/repository/ebayweb-release/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Georgeebeh Snapshot Nexus Repository </name>
-	      <url>http://172.31.75.140:8081/repository/georgeebeh-snapshot/</url>
+	      <url>http://172.31.69.69:8081/repository/ebayfe-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>ebay</finalName>
 		
 		<plugins>
 			<plugin>
